@@ -1,10 +1,10 @@
 int mySqrt(int x) {
-    int low = 0;
-    int high = x;
-    int ans = 0;
+    long long low = 0;
+    long long high = x;
+    long long ans = 0;
     
     while (low <= high){
-       int mid = (low + high)/2;
+       long long mid = (low + high)/2;
        long long square = mid * mid;
         
         if(square == x)
