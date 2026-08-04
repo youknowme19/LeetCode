@@ -5,7 +5,7 @@ int mySqrt(int x) {
     
     while (low <= high){
        int mid = (low + high)/2;
-       int square = mid * mid;
+       long long square = mid * mid;
         
         if(square == x)
             return mid;
