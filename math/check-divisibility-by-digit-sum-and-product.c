@@ -9,7 +9,7 @@ bool checkDivisibility(int n) {
         d=d/10;
     }
     int di=sum+product;
-    if(di%n==0){
+    if(n%di==0){
         return true;
     }
     else
